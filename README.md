@@ -19,38 +19,11 @@ Jack 的 Claude Code 个人开发偏好 Skill。
 
 ## 安装
 
-### 配置 GitHub Package Registry
-
-首先配置 npm 使用 GitHub Package Registry：
-
-```bash
-# 创建或编辑 ~/.npmrc
-echo "@jacklcl:registry=https://npm.pkg.github.com" >> ~/.npmrc
-```
-
-### 安装包
-
 ```bash
 npm install @jacklcl/claude-skill --save-dev
 ```
 
 安装后会自动将 Skill 复制到项目的 `.claude/skills/` 目录。
-
-## 发布（维护者）
-
-1. 登录 GitHub Package Registry：
-
-```bash
-npm login --registry=https://npm.pkg.github.com
-# Username: JackLCL
-# Password: 使用 GitHub Personal Access Token (需要 write:packages 权限)
-```
-
-2. 发布：
-
-```bash
-npm publish
-```
 
 ## License
 
