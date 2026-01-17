@@ -1,0 +1,28 @@
+{
+  "name": "@jacklcl/claude-skill",
+  "version": "1.0.0",
+  "description": "Jack 的 Claude Code 个人开发偏好 Skill",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackLCL/claude-skill.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "development",
+    "preferences"
+  ],
+  "author": "JackLCL",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "skills",
+    "scripts"
+  ]
+}
